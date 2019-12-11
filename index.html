@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/lazy.js"></script>
+  	<script src="js/wow.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="block-calculator">
+		<div class="left-block">
+			<div id="bl-1" class="left-prof">
+				Рефрижиратор <br> 100
+			</div>
+			<div id="bl-2" class="left-prof">
+				Самоскид <br> 200
+			</div>
+			<div id="bl-3" class="left-prof">
+				Рыдинны бочки <br> 300
+			</div>
+			<div id="bl-4" class="left-prof">
+				Цистерни сипучі <br> 400
+			</div>
+			<div id="bl-5" class="left-prof">
+				Тент <br> 500
+			</div>
+		</div>
+		<div class="right-block">
+			<div class="form">
+				<div class="input-wrap">
+						<label for="input-test-1">Точка погрузки</label>
+						<input type="text" name="input-test-1" class="input-main" placeholder="Місто, вул">
+						<div class="btn-abs-fixed">fixed</div>
+				</div>
+				<div class="btn-add">Додати пром. пункт?</div>
+				<div class="input-new-wrap">
+						
+						<div class="input-wrap-add">
+								<input type="text" name="input-test-2" class="input-add" placeholder="Місто, вул">
+								<div class="btn-abs">del</div>
+						</div>
+				</div>
+				<div class="input-wrap">
+						<label for="input-test-2">Точка вигрузки</label>
+						<input type="text" name="input-test-2" class="input-main" placeholder="Місто, вул">
+						<div class="btn-abs-fixed">fixed</div>
+				</div>
+				<div class="input-bottom">
+						<div class="input-wrap">
+								<label for="input-test-3">Кілометраж</label>
+								<input type="number" id="input-test-3" name="input-test-3" class="input-main" placeholder="100">
+								
+						</div>
+						<div class="input-wrap">
+								<label for="input-test-4">Тонаж</label>
+								<input type="number" id="input-test-4" name="input-test-4" class="input-main" placeholder="10">
+								
+						</div>
+				</div>
+				<div class="btn-result">
+					Розрахувати
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>   
+	<div class="block-result">
+		<div class="res-text">
+			Приблизна вартість:
+		</div>
+		<div id="main-result" class="main-result">
+			100 грн
+		</div>
+	</div>
+</body>
+</html>
